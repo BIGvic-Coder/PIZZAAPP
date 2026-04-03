@@ -1,0 +1,79 @@
+﻿@page "/"
+
+<PageTitle>Blazing Pizza</PageTitle>
+
+<h1>Get Pizza</h1>
+
+<div class="pizza-container">
+
+    <div class="pizza-card">
+        <h3>Buffalo Chicken</h3>
+        <p>Spicy chicken with buffalo sauce.</p>
+        <span>$12.75</span>
+        <button @onclick='() => OrderPizza("Buffalo Chicken")'>Order</button>
+    </div>
+
+    <div class="pizza-card">
+        <h3>The Baconator</h3>
+        <p>Loaded with crispy bacon.</p>
+        <span>$11.99</span>
+        <button @onclick='() => OrderPizza("Baconator")'>Order</button>
+    </div>
+
+    <div class="pizza-card">
+        <h3>Veggie Delight</h3>
+        <p>Fresh vegetables and mozzarella.</p>
+        <span>$11.50</span>
+        <button @onclick='() => OrderPizza("Veggie Delight")'>Order</button>
+    </div>
+
+</div>
+
+@if (!string.IsNullOrEmpty(selectedPizza))
+{
+    <div class="order-box">
+        <h3>Your Order</h3>
+        <p>@selectedPizza</p>
+    </div>
+}
+
+<style>
+.pizza-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.pizza-card{
+    padding:15px;
+    border-radius:10px;
+    background:#f5f5f5;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+button{
+    margin-top:10px;
+    padding:6px 12px;
+    background:#e60000;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.order-box{
+    margin-top:30px;
+    padding:15px;
+    border:1px solid #ccc;
+}
+</style>
+
+@code{
+
+string selectedPizza = "";
+
+void OrderPizza(string pizzaName)
+{
+    selectedPizza = pizzaName;
+}
+
+}

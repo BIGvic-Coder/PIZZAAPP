@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\victor\\Desktop\\VictorMovies\\PizzaApp\\PizzaApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PizzaApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\victor\\Desktop\\VictorMovies\\PizzaApp\\PizzaApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\victor\\Desktop\\VictorMovies\\PizzaApp\\PizzaApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\victor\\Desktop\\VictorMovies\\PizzaApp\\PizzaApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\victor\\Desktop\\VictorMovies\\PizzaApp\\PizzaApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PizzaApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PizzaApp.props",
+      "PackagePath": "build\\PizzaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PizzaApp.props",
+      "PackagePath": "buildMultiTargeting\\PizzaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PizzaApp.props",
+      "PackagePath": "buildTransitive\\PizzaApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
